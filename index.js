@@ -186,9 +186,6 @@ module.exports = {
     "react/no-multi-comp": "off",
     "react/no-string-refs": "error",
     "react/no-unknown-property": "error",
-    "react/prop-types": [
-      "warn"
-    ],
     "react/self-closing-comp": [
       "error",
       {
