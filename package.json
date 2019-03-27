@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "description": "eslint common config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "ToanVQ <hunter9xbn@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "9.x",
+    "eslint": "5.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x"
+  },
+  "name": "@cr4zyc4t/eslint-config-common",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cr4zyc4t/eslint-config-common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cr4zyc4t/eslint-config-common/issues"
+  },
+  "homepage": "https://github.com/cr4zyc4t/eslint-config-common#readme"
+}
