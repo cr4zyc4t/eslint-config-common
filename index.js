@@ -1,33 +1,6 @@
 "use strict";
 
 module.exports = {
-  root: true,
-
-  parser: 'babel-eslint',
-
-  plugins: ['import', 'jsx-a11y', 'react'],
-
-  env: {
-    browser: true,
-    commonjs: true,
-    es6: true,
-    node: true,
-  },
-
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
-
   rules: {
     "array-bracket-spacing": [
       "error",
@@ -47,18 +20,6 @@ module.exports = {
       "error",
       "after"
     ],
-
-    // plugin import
-    "import/named": "error",
-    "import/no-mutable-exports": "error",
-    "import/no-webpack-loader-syntax": "warn",
-    "import/order": [
-      "warn",
-      {
-        "newlines-between": "always"
-      }
-    ],
-
     "indent": [
       "error",
       2,
@@ -162,42 +123,6 @@ module.exports = {
       "warn",
       "double"
     ],
-
-    // plugin react
-    "react/jsx-closing-bracket-location": [
-      "error",
-      "line-aligned"
-    ],
-    "react/jsx-closing-tag-location": "error",
-    "react/jsx-no-bind": "error",
-    "react/jsx-pascal-case": [
-      "error",
-      {
-        "allowAllCaps": true,
-        "ignore": []
-      }
-    ],
-    "react/jsx-tag-spacing": [
-      "error"
-    ],
-    "react/jsx-wrap-multilines": [
-      "error"
-    ],
-    "react/no-multi-comp": "off",
-    "react/no-string-refs": "error",
-    "react/no-unknown-property": "error",
-    "react/self-closing-comp": [
-      "error",
-      {
-        "component": true,
-        "html": false
-      }
-    ],
-    "react/sort-comp": "error",
-    "react/no-unused-prop-types": [
-      "error"
-    ],
-
     "semi": [
       "error",
       "always"
