@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint common config",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,10 @@
   "author": "ToanVQ <hunter9xbn@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">=4"
+    "eslint": ">=4.0.0",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x"
   },
   "name": "@cr4zyc4t/eslint-config-common",
   "repository": {
