@@ -164,6 +164,7 @@ module.exports = {
         "never"
       ],
       "space-infix-ops": "error",
+      "strict": "off",
       "template-curly-spacing": "error"
     },
     useImport && {
